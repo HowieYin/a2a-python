@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.2.4](https://github.com/a2aproject/a2a-python/compare/v1.2.3...v1.2.4) (2026-10-21)
+
+
+### Bug Fixes
+
+* **client:** Create separate httpx per client when none configured ([#1358](https://github.com/a2aproject/a2a-python/issues/1358)) ([d316d0e](https://github.com/a2aproject/a2a-python/commit/d316d0e85e4d229df261d0cee0e9d9c0e5263207))
+* **client:** rejections from unrecognized fields ([#1354](https://github.com/a2aproject/a2a-python/issues/1354)) ([91929cd](https://github.com/a2aproject/a2a-python/commit/91929cda989caba089584ceafa7796583f25bec4))
+* **compat:** keep an unset v0.3 status message and provider as None ([#1362](https://github.com/a2aproject/a2a-python/issues/1362)) ([cdb4799](https://github.com/a2aproject/a2a-python/commit/cdb479957e81600f68f946f8ff0122667673cb35)), closes [#1361](https://github.com/a2aproject/a2a-python/issues/1361)
+* **core:** restore structured __repr__ on A2A exceptions ([#1348](https://github.com/a2aproject/a2a-python/issues/1348)) ([79a6f45](https://github.com/a2aproject/a2a-python/commit/79a6f451f49fdeaec099d723542363b5bc6dead7))
+
 ## [1.2.3](https://github.com/a2aproject/a2a-python/compare/v1.2.2...v1.2.3) (2026-10-17)
 
 
